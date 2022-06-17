@@ -1,0 +1,66 @@
+.heading{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.underline{
+    border-bottom: 0.3rem solid black;
+}
+.no-decoration{
+    text-decoration: none;
+}
+#main-post{
+    background-image: url(./images/main-post.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.post-title{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.post-footer{
+    font-size: x-small;
+    color: gray
+}
+.main-post-content{
+    background-color: white;
+}
+a:hover{
+    scale: 102%;
+}
+.about-image img{
+    border-radius: 100%;
+}
+.about-headline{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.about-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.about-footer{
+    font-size: medium;
+    font-weight: 400;
+}
+.postPage-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.postPage-content p{
+    text-align: justify;
+    font-size: large;
+}
+.postPage-details{
+    font-size: 1.5rem;
+}
+@media (max-width: 576px) {
+    .postPage-title{
+        font-size: 2rem;
+        font-weight: bold;
+    } 
+    .postPage-details{
+        font-size: 1rem;
+    }
+}
